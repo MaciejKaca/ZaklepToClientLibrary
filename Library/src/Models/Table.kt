@@ -1,8 +1,10 @@
 package Models
 
+import java.util.*
+
 
 data class Table(
-    val id: String,
+    val id: UUID,
     val numberOfSeats: Int,
     val coordinates: Coordinates
 )
